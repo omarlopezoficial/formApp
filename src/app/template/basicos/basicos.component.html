@@ -1,0 +1,41 @@
+<h2>Template básico</h2>
+<hr>
+
+<div class="row">
+    <div class="col">
+        <form (ngSubmit)="save()" #miFormulario="ngForm">
+            <!-- Nombre del producto -->
+            <div class="row">
+                <label class="col-sm-3 col-form-label">Producto</label>
+                <div class="col-sm-9">
+                    <input type="text" class="form-control" placeholder="Nombre del producto">
+                    <span class="form-text text-danger">Debe tener al menos 3 letras</span>
+                </div>
+            </div>
+             <!-- Precio del producto -->
+             <div class="row">
+                <label class="col-sm-3 col-form-label">Producto</label>
+                <div class="col-sm-9">
+                    <input type="text" class="form-control" placeholder="Precio del producto">
+                    <span class="form-text text-danger">Debe tener al menos 3 letras</span>
+                </div>
+            </div>
+             <!-- Cantidad del producto -->
+             <div class="row">
+                <label class="col-sm-3 col-form-label">Producto</label>
+                <div class="col-sm-9">
+                    <input type="text" class="form-control" placeholder="Cantidad del producto">
+                    <span class="form-text text-danger">Debe tener al menos 3 letras</span>
+                </div>
+            </div>
+
+             <!-- Cantidad del producto -->
+             <div class="row">
+             
+                <div class="col">
+                    <button type="submit" class="btn btn-primary float-end">Guardar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
